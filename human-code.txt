@@ -1,0 +1,77 @@
+Domani è il compleanno di Silvia e non le ho ancora comprato nulla! Mi piacerebbe sorprenderla, so che le piaceva tanto quella lampada da tavolo così particolare, però la consegna non è Prime e non arriverebbe mai in tempo! Potrei optare per una bella stilografica ma sicuramente sforo il budget, forse è meglio optare per un buon libro: un classico ma so che con lei vado sul sicuro!
+
+
+Valuzationi generali:
+
+
+   Valutazione budget:
+         Budget fisso: 50 Euro 
+
+
+   Valutazione approprietezza regali:
+      Valutazione 1:    Brutto per Silvia
+      Valutazione 2:  Bello per Silvia 
+
+   Valutazione Tempistiche:
+      Tempistica 1: Arriva Domani
+      Tempistica 2: Arriva Oltre domani
+
+----------------------------------------------------------------
+
+   Definizione Prodotti:
+       Definizione Lampada:
+         Budget 50 euro
+         approprietezza uguale valutazione 2 
+         tempistiche uguale tempistica 2 
+
+
+       Definizione Stilografica:
+         budget 75 euro
+         approprieatezza uguale valutazione x
+         tempistica uguale tempistica 1 
+
+      Definizione Libro:
+         budget uguale x Euro
+         approprieatezza valutazione 2 
+         Tempistica uguale tempistica x 
+
+
+      Definizione Gift Card:
+         budget 50 Euro
+         approprieatezza valutazione 2 
+         Tempistica  uguale 2
+
+----------------------------------------------------------------
+
+
+
+
+Valutazione Lampada
+
+   -Controllo la pagina Amazon del prodotto Lampada:
+         SE il prodotto soddisfa Budget 50 euro e valutazione 2 e tempistica 1 
+            - Compra 
+         ALTRIMENTI valuto un'altro prodotto.
+
+
+
+
+
+valuzatione stilografica
+
+   -Controllo la pagina Amazon del prodotto stilografica:
+         SE il prodotto soddisfa Budget 50 euro e valutazione 2 e tempistica 1 
+            - Compra 
+         ALTRIMENTI valuto un'altro prodotto.
+
+
+   SE lampada o stilografica uguale comprato, impacchetta il regalo 
+      ALTRIMENTI Valutazione Libro:
+            Valutazione libro  
+               -Controllo la pagina Amazon del prodotto Libro:
+                     SE il prodotto soddisfa Budget 50 euro e valutazione 2 e tempistica 1 
+                        - Compra 
+                     ALTRIMENTI Compra una Gift card Amazon da 50 euro.
+
+
+Print Auguri Silvia
