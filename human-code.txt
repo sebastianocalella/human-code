@@ -108,3 +108,4 @@ lista prodotti da valutare{
 
             ALLORA compra gift card amazon (prodotto 16)
 
+print auguri Silvia
