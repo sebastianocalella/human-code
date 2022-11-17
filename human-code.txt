@@ -39,7 +39,7 @@ Valuzationi generali:
       Definizione Gift Card:
          budget 50 Euro
          approprieatezza valutazione 2 
-         Tempistica  uguale 2
+         Tempistica  uguale 1
 
 ----------------------------------------------------------------
 
@@ -65,13 +65,46 @@ valuzatione stilografica
          ALTRIMENTI valuto un'altro prodotto.
 
 
-   SE lampada o stilografica uguale comprato, impacchetta il regalo 
-      ALTRIMENTI Valutazione Libro:
-            Valutazione libro  
-               -Controllo la pagina Amazon del prodotto Libro:
-                     SE il prodotto soddisfa Budget 50 euro e valutazione 2 e tempistica 1 
-                        - Compra 
-                     ALTRIMENTI Compra una Gift card Amazon da 50 euro.
+        SE lampada o stilografica uguale comprato, impacchetta il regalo 
+           ALTRIMENTI Valutazione Libro:
+                 Valutazione libro  
+                    -Controllo la pagina Amazon del prodotto Libro:
+                          SE il prodotto soddisfa Budget 50 euro e valutazione 2 e tempistica 1 
+                             - Compra 
+                          ALTRIMENTI Compra una Gift card Amazon da 50 euro.
 
 
-Print Auguri Silvia
+
+---------- esercizio generalizzato --------------
+
+lista prodotti da valutare{
+    prodotto 1
+    prodotto 2
+    prodotto 3
+    prodotto 4
+    prodotto 5
+    prodotto 6
+    prodotto 7
+    prodotto 8
+    prodotto 9
+    prodotto 10
+    prodotto 11
+    prodotto 12
+    prodotto 13
+    prodotto 14
+    prodotto 15
+    prodotto 16 = gift card
+}
+
+- analizza il prodotto 1
+
+    *** SE il prodotto( soddisfa (Budget 50 euro) e (valutazione = 2) e (tempistica = 1)
+
+            ALLORA compra ed esci
+
+            ALTRIMENTI  cancella il prodotto dalla lista e analizza il prodotto successivo (n++1) ***
+
+        SE prodotto 15 = false
+
+            ALLORA compra gift card amazon (prodotto 16)
+
